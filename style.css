@@ -1,0 +1,79 @@
+html { 
+  background: url(img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  	height: 100%;
+}
+
+body {
+	background-color: transparent;
+	height: 100%;
+}
+
+.navbar-inverse {
+	background-color: transparent;
+	border: 0px;
+	padding: 20px 0;
+}
+
+.navbar-inverse .navbar-brand {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.content .content-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+	display: table;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;	
+	width: 100%;
+    padding: 0;
+}
+
+.content-body {
+	display: table;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+#new-quote-btn {
+	background: none;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #42DCA3;
+	font-weight: 200;
+	border: 1px solid #42DCA3;
+}
+
+#new-quote-btn:hover {
+	background-color: #42DCA3;
+	color: #fff;
+}
+
+.quote {
+	font-size: 30px;
+	font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	width: 800px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.author {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-weight: 400;
+	font-size: 22px;
+	margin-bottom: 50px;
+}
