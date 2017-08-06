@@ -65,9 +65,9 @@ body {
 	font-size: 30px;
 	font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #fff;
-	width: 800px;
-	margin: 0 auto;
 	margin-bottom: 20px;
+	padding-left:20px;
+	padding-right: 20px;
 }
 
 .author {
