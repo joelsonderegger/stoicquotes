@@ -156,7 +156,7 @@ function getNewQuote() {
 	$(".author").html("- " + quotes[randomQuoteIndex].author);
 
 	// cahnge the href for the tweet button
-	var newURL = (quotes[randomQuoteIndex].quote + " - " +quotes[randomQuoteIndex].author).split(' ').join('%20');
+	var newURL = (quotes[randomQuoteIndex].quote + " - " + quotes[randomQuoteIndex].author).split(' ').join('%20');
 	console.log(newURL);
 
 	$(".twitter-share-button").attr("href", "https://twitter.com/intent/tweet?text="+newURL);
